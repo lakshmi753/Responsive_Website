@@ -1,0 +1,194 @@
+body {
+  padding-top: 110px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-box {
+  margin: 0;
+}
+
+.title-box h1 {
+  padding: 5px;
+  font-size: 2.1rem;
+}
+
+.title-box img {
+  width: 52px;
+  height: 52px;
+}
+
+.nav-search-box {
+  display: flex;
+  flex: 1;
+  padding: 10px 1px;
+}
+
+.navbar-box {
+  margin-right: 0;
+}
+
+.items {
+  padding: 1px 5px;
+}
+
+.items a {
+  font-size: 0.9rem;
+}
+
+.searchbar-box {
+  display: none;
+}
+
+/*.searchbar-box {
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  
+  .searchbar {
+    height: 20px;
+    border-radius: 10px;
+  }
+  
+  .searchbar input {
+    width: 70px;
+    font-size: 1rem;
+  }
+  
+  .searchbar input::placeholder {
+    font-size: 1rem;
+  }
+  
+  .searchbar div {
+    height: 32px;
+    width: 18px;
+  }
+  
+  .searchbar-box img {
+    display: none;
+  }*/
+
+.home::before {
+  height: 410px;
+}
+
+.home-title img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 7px;
+}
+
+.home p {
+  font-size: 0.6rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.home button {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.services::before {
+  height: 1610px;
+}
+
+.services h2 {
+  display: none;
+}
+
+.second-title {
+  display: block;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 38px;
+  box-shadow: 5px 5px 8px darkmagenta;
+}
+
+.food-services-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.food-services h3 {
+  font-size: 1.1rem;
+}
+
+.food-services {
+  width: 220px;
+}
+
+.bulk-odering-pic {
+  height: 330px;
+  width: 240px;
+}
+
+.client::before {
+  height: 330px;
+}
+
+.client h2 {
+  width: 145px;
+}
+
+.client-box {
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.client-box img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+.client p {
+  font-size: 0.5rem;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+footer {
+  height: 60px;
+  padding: 0;
+}
+
+footer div {
+  padding: 0;
+}
+
+.copyright {
+  font-size: 0.2rem;
+}
+
+.bye {
+  font-size: 0.7rem;
+}
+
+.greeting {
+  font-size: 0.5rem;
+}
+
+/*utility-class*/
+
+.title {
+  /* display: inline-block;*/
+  font-family: "Pacifico", cursive;
+  font-size: 1.2rem;
+  color: darkmagenta;
+}
+
+.services-pic {
+  width: 210px;
+  height: 120px;
+  padding: 10px;
+}

@@ -1,0 +1,166 @@
+body {
+  padding-top: 120px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-box {
+  margin-bottom: 0;
+}
+
+.title-box h1 {
+  font-size: 2.2rem;
+}
+
+.title-box img {
+  width: 55px;
+  height: 55px;
+}
+
+.nav-search-box {
+  display: flex;
+  flex: 1;
+  padding: 10px 1px;
+}
+
+.navbar-box {
+  margin-right: 15px;
+}
+
+.items {
+  padding: 1px 5px;
+}
+
+.items a {
+  font-size: 1.1rem;
+}
+
+.searchbar-box {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.searchbar {
+  height: 24px;
+  border-radius: 12px;
+}
+
+.searchbar input {
+  width: 70px;
+}
+
+.searchbar div {
+  height: 35px;
+  width: 20px;
+}
+
+.searchbar-box img {
+  display: none;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.home::before {
+  height: 630px;
+}
+
+.home-title img {
+  width: 41px;
+  height: 41px;
+  border-radius: 20.5px;
+  padding-left: 7px;
+}
+
+.home p {
+  font-size: 1.1rem;
+}
+
+.home button {
+  margin-top: 10px;
+}
+
+.services::before {
+  height: 1630px;
+}
+
+.food-services-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food-services {
+  width: 300px;
+}
+
+.food-services h3 {
+  font-size: 1.5rem;
+}
+
+.bulk-odering-pic {
+  height: 320px;
+  width: 280px;
+}
+
+.client::before {
+  height: 780px;
+}
+
+.client h2 {
+  width: 205px;
+}
+
+.client-box {
+  flex-wrap: wrap;
+}
+
+.client-box img {
+  height: 120px;
+  width: 120px;
+}
+
+.client p {
+  font-size: 1rem;
+}
+
+footer {
+  height: 80px;
+  padding: 0;
+}
+
+footer div {
+  padding: 5px;
+}
+
+.copyright {
+  font-size: 0.5rem;
+}
+
+.bye {
+  font-size: 1.6rem;
+}
+
+.greeting {
+  font-size: 1.1rem;
+}
+
+/*utility-class*/
+
+.title {
+  /* display: inline-block;*/
+  font-family: "Pacifico", cursive;
+  font-size: 1.7rem;
+  color: darkmagenta;
+}
+
+.services-pic {
+  width: 240px;
+  height: 150px;
+  padding: 10px;
+}

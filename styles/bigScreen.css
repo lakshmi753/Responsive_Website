@@ -1,0 +1,59 @@
+.title-box {
+  margin-left: 20px;
+}
+
+.title-box h1 {
+  font-size: 2.5rem;
+}
+
+.title-box img {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-box {
+  margin-right: 55px;
+}
+
+.items {
+  padding: 1px 8px;
+}
+
+.items a {
+  font-size: 1.7rem;
+}
+
+.searchbar-box {
+  margin-left: 55px;
+  margin-right: 10px;
+}
+
+.searchbar input {
+  width: 200px;
+}
+
+.searchbar-box img {
+  width: 60px;
+  height: 60px;
+}
+
+.home::before {
+  height: 620px;
+}
+
+.services::before {
+  height: 1254px;
+}
+
+.food-services-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client::before {
+  height: 700px;
+}
+
+.client-box {
+  flex-wrap: wrap;
+}

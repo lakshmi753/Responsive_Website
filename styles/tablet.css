@@ -1,0 +1,88 @@
+body {
+  padding-top: 80px;
+}
+
+.title-box h1 {
+  font-size: 2.2rem;
+}
+
+.title-box img {
+  width: 55px;
+  height: 55px;
+}
+
+.navbar-box {
+  margin-right: 25px;
+}
+
+.items {
+  padding: 1px 8px;
+}
+
+.items a {
+  font-size: 1.2rem;
+}
+
+.searchbar-box {
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.searchbar {
+  height: 38px;
+  border-radius: 19px;
+}
+
+.searchbar input {
+  width: 100px;
+}
+
+.searchbar-box img {
+  width: 55px;
+  height: 55px;
+}
+
+.home::before {
+  height: 630px;
+}
+
+.home-title img {
+  width: 44px;
+  height: 44px;
+  border-radius: 24px;
+  padding-left: 7px;
+}
+
+.services::before {
+  height: 1254px;
+}
+
+.food-services-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.client::before {
+  height: 900px;
+}
+
+.client h2 {
+  width: 238px;
+}
+
+.client-box {
+  flex-wrap: wrap;
+}
+
+.client-box img {
+  height: 160px;
+  width: 160px;
+}
+
+/*utility-class*/
+.title {
+  /* display: inline-block;*/
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  color: darkmagenta;
+}
